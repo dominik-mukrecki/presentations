@@ -22,7 +22,7 @@
   "slidev": {
     "defaults": {
       "fonts": {
-        "mono": "Sono Variable",
+        "mono": "Sono",
         "sans": "Inter",
         "serif": "Merriweather"
       }

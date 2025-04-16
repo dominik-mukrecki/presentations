@@ -9,6 +9,10 @@ themeConfig:
     info: '#738678' # Sage Green
     code: '#6A5ACD' # Muted Indigo
 layout: center
+fonts:
+  mono: Sono
+  serif: Merriweather
+  provider: google
 transition: fade-out
 download: true
 theme: ./theme
