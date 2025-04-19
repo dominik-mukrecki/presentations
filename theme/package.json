@@ -21,11 +21,7 @@
   },
   "slidev": {
     "defaults": {
-      "fonts": {
-        "mono": "Sono",
-        "sans": "Inter",
-        "serif": "Merriweather"
-      }
+      "transition": "fade-out"
     }
   },
   "dependencies": {

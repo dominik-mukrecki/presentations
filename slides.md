@@ -1,21 +1,14 @@
 ---
 title: Digital Twin for Non-Verbal Autism
-themeConfig:
-  colors:
-    background: '#FAF9F6' # Warm White
-    text: '#333333' # Charcoal Grey
-    primary: '#4B5C77' # Deep Slate Blue
-    accent: '#E17A6B' # Soft Coral
-    info: '#738678' # Sage Green
-    code: '#6A5ACD' # Muted Indigo
 layout: center
 fonts:
   mono: Sono
   serif: Merriweather
-  provider: google
-transition: fade-out
+  sans: Inter
+transition: slide-left
 download: true
 theme: ./theme
+background: 
 ---
 
 # Digital Twin for Non-Verbal Autism
@@ -24,10 +17,9 @@ Modeling and simulating behavior through reinforcement learning, sensory profili
 
 ---
 layout: center
-transition: fade-out
 ---
 
-# Motivation
+## Motivation
 
 - Approximately one-third of autistic individuals are minimally or non-verbal.
 - Traditional interventions rely heavily on verbal interaction.
@@ -35,10 +27,9 @@ transition: fade-out
 
 ---
 layout: center
-transition: fade-out
 ---
 
-# Proposed Solution
+## Proposed Solution
 
 A **Digital Twin** platform that simulates individual behavior based on:
 
@@ -48,10 +39,9 @@ A **Digital Twin** platform that simulates individual behavior based on:
 
 ---
 layout: center
-transition: fade-out
 ---
 
-# How It Works
+## How It Works
 
 - **State space**: sensory input, routine changes, anxiety levels.
 - **Action space**: stimming, avoidance, nonverbal cues.
@@ -59,10 +49,9 @@ transition: fade-out
 
 ---
 layout: center
-transition: fade-out
 ---
 
-# Platform, Not Just a Model
+## Platform, Not Just a Model
 
 The **Digital Twin** serves as a flexible **testing ground** for:
 
@@ -72,10 +61,9 @@ The **Digital Twin** serves as a flexible **testing ground** for:
 
 ---
 layout: center
-transition: fade-out
 ---
 
-# Verification Strategy
+## Verification Strategy
 
 1. **Expert review**: clinical realism.
 2. **Caregiver usability**: practical feedback.
@@ -84,10 +72,9 @@ transition: fade-out
 
 ---
 layout: center
-transition: fade-out
 ---
 
-# Applications and Impact
+## Applications and Impact
 
 - Personalized non-verbal behavior simulation.
 - Safer therapy design.
@@ -95,19 +82,18 @@ transition: fade-out
 
 ---
 layout: center
-transition: fade-out
 ---
 
-# Next Steps
+## Next Steps
 
-- Develop formal validation metrics.
-- Integrate with robotic agents.
-- Participate in HealthTech Synergy Hub.
 - Present at ANNSIM 2025.
+- **Start a PhD**
+- Participate in HealthTech Synergy Hub?
+- Develop formal validation metrics (insistince on sameness, anxiety, sensory overload and others).
+- Integrate with robotic agents (Nvidia Omniverse, Isaac GR00T N1).
 
 ---
 layout: center
-transition: fade-out
 ---
 
 # Thank You!

@@ -3,11 +3,19 @@
     @apply -mt-2 opacity-50 mb-4;
   }
 
-  p, li, ul {
-    @apply font-serif
+  p,
+  li,
+  ul {
+    @apply font-serif;
   }
 
-  p + h2, ul + h2, table + h2 {
+  ul {
+    @apply list-disc;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
     @apply mt-10;
   }
 
@@ -16,23 +24,23 @@
   }
 
   h2 {
-    @apply text-3xl font-[Sono];
+    @apply text-3xl font-[Sono] lowercase font-700;
   }
 
   h3 {
-    @apply text-2xl font-mono;
+    @apply text-2xl font-[Sono];
   }
 
   h4 {
-    @apply text-xl font-mono;
+    @apply text-xl font-[Sono];
   }
 
   h5 {
-    @apply text-base font-mono;
+    @apply text-base font-[Sono];
   }
 
   h6 {
-    @apply text-sm pt-1 uppercase tracking-widest font-500 -ml-[0.05em] font-mono;
+    @apply text-sm pt-1 uppercase tracking-widest font-500 -ml-[0.05em] font-[Sono];
   }
 
   h6:not(.opacity-100) {
@@ -49,6 +57,9 @@
   }
 }
 
+.slidev-layout.center > div {
+  @apply w-2xl h-sm border p-4 rounded-lg;
+}
 
 .slidev-layout.fact {
   @apply text-center grid h-full;
