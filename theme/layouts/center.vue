@@ -1,7 +1,6 @@
 <template>
-  <div class="slidev-layout statement">
+  <div class="slidev-layout center">
     <div>
-      <slot name="title" />
       <slot name="content" />
     </div>
   </div>

@@ -1,7 +1,8 @@
 <template>
   <div class="slidev-layout intro">
-    <div class="my-auto">
-      <slot />
+    <div>
+      <slot name="title" />
+      <slot name="content" />
     </div>
   </div>
 </template>

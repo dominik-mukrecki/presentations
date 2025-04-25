@@ -21,7 +21,11 @@
   },
   "slidev": {
     "defaults": {
-      "transition": "fade-out"
+      "fonts": {
+        "mono": "Fira Code",
+        "sans": "Avenir Next,Nunito Sans",
+        "local": "Avenir Next"
+      }
     }
   },
   "dependencies": {

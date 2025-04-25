@@ -1,7 +1,8 @@
 <template>
-  <div class="slidev-layout section w-full h-full grid">
-    <div class="my-auto text-center">
-      <slot />
+  <div class="slidev-layout section">
+    <div>
+      <slot name="title" />
+      <slot name="content" />
     </div>
   </div>
 </template>
