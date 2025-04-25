@@ -1,20 +1,15 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { handleBackground } from '../layoutHelper'
+import { useSlideContext } from '@slidev/client'
 
-const props = defineProps({
-  background: {
-    default: '',
-  },
-})
+const { $frontmatter } = useSlideContext()
+const image = $frontmatter.image || ''
 
-const style = computed(() => handleBackground(props.background, true))
 </script>
 
 <template>
   <div class="slidev-layout cover" :style="style">
-    <div class="my-auto w-full">
-      <slot />
+    <div class="image">
+      <img v-if="image" :src="image" />
     </div>
   </div>
 </template>

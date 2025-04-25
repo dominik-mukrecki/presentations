@@ -1,6 +1,6 @@
 <template>
   <div class="slidev-layout center">
-    <div>
+    <div class="content ">
       <slot name="content" />
     </div>
   </div>

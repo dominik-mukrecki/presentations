@@ -1,5 +1,5 @@
 ---
-layout: intro
+layout: cover
 fonts:
   mono: Sono
   serif: Merriweather
@@ -8,8 +8,13 @@ transition: slide-up
 download: true
 theme: ./theme
 aspectRatio: 16/9
+image: https://unsplash.it/1600/360
 author: Dominik Mukrecki
-title: Showcase
+title: "Neurodevelopmental disorders, including ASD and ADHD spectra. Simmulations for diagnostic and therapeutic approaches."
+---
+
+---
+layout: intro
 ---
 
 ::title::
@@ -18,7 +23,11 @@ title: Showcase
 
 ::content::
 
-This slide uses the **intro** layout. Explore all built-in Slidev layouts in this tester deck.
+You're looking at a slide using the **intro** layout from Slidev. Here, you can explore and interact with various built-in layouts, designed specifically to enhance your presentations.
+
+Feel free to navigate around, test different features, and see how Slidev combines Markdown simplicity with powerful customization options.
+
+Let's get started! 🚀
 
 ---
 layout: center
@@ -27,10 +36,17 @@ transition: slide-down # try this before each new section
 
 ::content::
 
-## Everything on this slide should be centered.
+## Everything Centered ✨
+
+This slide layout beautifully centers content both horizontally and vertically.  
+Perfect for highlighting key points, quotes, or announcements.
+
+Try it yourself by editing this text—  
+it's simple, clean, and impactful!
 
 ---
 layout: section
+image: https://unsplash.it/1600/360
 ---
 
 ::title::
@@ -51,7 +67,9 @@ layout: fact
 
 ::content::
 
-**Downloads worldwide**
+Downloads Worldwide 🌎  
+
+Join the community and see what makes Slidev so popular!
 
 ---
 layout: statement
@@ -59,11 +77,13 @@ layout: statement
 
 ::title::
 
-## Make things *happen*
+## Make things *happen* 🚀
 
 ::content::
 
-Statement layouts are perfect for emphasizing key messages.
+When your message needs impact, the **statement** layout is your best friend.
+
+Clear. Bold. Memorable.
 
 ---
 layout: default
@@ -71,15 +91,40 @@ layout: default
 
 ::title::
 
-## Default Layout
+## Default Layout 📌
 
 ::content::
 
-Plain slide with no special layout—great for standard content.
+A clean, versatile layout designed for regular slide content:
 
-- Bullet point 1
-- Bullet point 2
-- Bullet point 3
+- Clearly structured bullet points
+- Easy-to-read formatting
+- Ideal for general information and details
+
+Use this layout whenever simplicity and clarity are key.
+
+
+---
+layout: default
+level: 2
+---
+
+::title::
+
+# Exploring Slidev with Vue.js
+
+::content::
+
+Slidev simplifies the creation of presentations, combining Markdown simplicity and Vue.js flexibility. You can read more about it in the [official documentation](https://example.com).
+
+To customize slides, themes are available, which you can explore further in this.[theme guide1](https://example.com)[theme guide2](https://example.com)
+
+Slidev integrates smoothly with Tailwind CSS, as shown in this [styling example](https://example.com).
+
+For interactive slides, Vue components are used, and you can learn more in this [component integration tutorial](https://example.com).
+
+Finally, presentations can easily be exported to formats like PDF or PNG—learn about exporting methods in the [exporting guide](https://example.com).
+
 
 ---
 layout: two-cols
@@ -88,24 +133,27 @@ transition: slide-down
 
 ::left-title::
 
-## Left Column
+## Getting Started with Slidev
 
 ::left-content::
 
-- Content aligned to the left.
-- Use for structured information.
+- Quickly install via [npm](https://example.com).
+- Easily create slides using [Markdown syntax](https://example.com).
+- Integrate dynamic [Vue components](https://example.com).
 
 ::right-title::
 
-## Right Column
+## Explore Further
 
 ::right-content::
 
-- Content aligned to the right.
-- Ideal for comparisons or parallel points.
+- Discover custom themes in the [theme gallery](https://example.com).
+- Export slides in multiple formats ([PDF, PNG](https://example.com)).
+- Learn advanced customizations from the [documentation](https://example.com).
 
 ---
 layout: section
+image: https://unsplash.it/1600/360
 ---
 
 ::title::
@@ -119,17 +167,16 @@ Section for images
 ---
 layout: quote
 image: https://unsplash.it/600/800
-title: Quote image
 level: 2
 ---
 
 ::content::
 
-## Simplicity is the ultimate sophistication.
+## “Simplicity is the ultimate sophistication.”
 
 ::author::
 
-Leonardo da Vinci, Lorem ipsum lorem ipsum et ipsum et ipsum
+Leonardo da Vinci, Italian Renaissance artist, scientist, and visionary.
 
 ---
 layout: image

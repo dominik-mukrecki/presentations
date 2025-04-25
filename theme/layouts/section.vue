@@ -1,7 +1,19 @@
+<script setup lang="ts">
+import { useSlideContext } from '@slidev/client'
+
+const { $frontmatter } = useSlideContext()
+const image = $frontmatter.image || ''
+</script>
+
 <template>
   <div class="slidev-layout section">
-    <div>
+    <div class="image">
+      <img v-if="image" :src="image" />
+    </div>
+    <div class="title">
       <slot name="title" />
+    </div>
+    <div class="content">
       <slot name="content" />
     </div>
   </div>

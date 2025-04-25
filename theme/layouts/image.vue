@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { useSlideContext } from '@slidev/client'
 
 const { $frontmatter } = useSlideContext()

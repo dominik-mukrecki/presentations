@@ -13,7 +13,7 @@
             </template>
         </LightOrDark>
         <div class="name">
-            <span>Cyber-Physical Systems Group.</span>
+            <span>Cyber-Physical<br>Systems Group.</span>
         </div>
     </div>
 </template>
