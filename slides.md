@@ -236,6 +236,7 @@ Use this layout to emphasize visual impact with minimal or no additional text.
 ---
 layout: full
 image: https://unsplash.it/1600/900
+contentClass: text-slate-200
 title: Full image
 level: 2
 ---
@@ -243,8 +244,6 @@ level: 2
 ::content::
 
 ## Image with blurred cover
-
-Use this layout to emphasize visual impact with minimal or no additional text.
 
 ---
 layout: image-left

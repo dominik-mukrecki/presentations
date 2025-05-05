@@ -332,15 +332,11 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout.full .content {
-  @apply absolute w-full h-full backdrop-blur-xl transition-all flex-col justify-center content-center;
+  @apply absolute w-full h-full flex-col justify-center content-center;
 }
 
 .slidev-layout.full .content .container {
-  @apply text-center bg-slate-800 dark:bg-slate-200 text-slate-200 dark:text-slate-800 bg-opacity-50 dark:bg-opacity-50 p-8;
-}
-
-.slidev-layout.full .content .container p {
-  @apply text-2xl;
+  @apply text-center backdrop-blur-md p-8;
 }
 
 .slidev-layout.full .content .container h2 {
