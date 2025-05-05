@@ -14,8 +14,9 @@
   @apply after:content-["/"];
 }
 
-.slidev-slide-content header.layout-cover .right-upper {
-  @apply hidden;
+.slidev-slide-content header.layout-cover .right-upper,
+.slidev-slide-content header.layout-end .right-upper {
+  @apply opacity-0 transition-opacity;
 }
 
 .slidev-slide-content header .section-title {
@@ -43,8 +44,16 @@
   @apply w-[50%] top-[40%] left-[25%] px-0 text-slate-800 dark:text-slate-200 text-left;
 }
 
+.slidev-slide-content header.layout-end .left-upper {
+  @apply opacity-0;
+}
+
 .slidev-slide-content header.layout-cover .left-upper .title {
   @apply text-2xl break-normal;
+}
+
+.slidev-slide-content header.layout-end .left-upper .title {
+  @apply;
 }
 
 .slidev-slide-content header.layout-cover .left-upper .author {
@@ -75,11 +84,20 @@
   @apply w-[25%] h-[40%] p-6;
 }
 
+.slidev-slide-content footer.layout-end .university-square {
+  @apply w-[25%] h-[40%] p-6 bottom-60%;
+}
+
 .slidev-slide-content footer.layout-cover .cyber-square {
   @apply w-[25%] h-[40%] p-6;
 }
 
-.slidev-slide-content footer.layout-cover .cyber-square .name {
+.slidev-slide-content footer.layout-end .cyber-square {
+  @apply w-[25%] h-[40%] p-6 bottom-60%;
+}
+
+.slidev-slide-content footer.layout-cover .cyber-square .name,
+.slidev-slide-content footer.layout-end .cyber-square .name {
   @apply text-xl;
 }
 
@@ -105,7 +123,7 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout h1 {
-  @apply text-4xl mb-4;
+  @apply text-4xl;
 }
 
 .slidev-layout h2 {
@@ -225,6 +243,30 @@ div.global-stripes > div:not(:last-child) {
   @apply col-start-5 row-start-2 col-span-3 row-span-3 mb-auto mr-4;
 }
 
+.slidev-layout.two-cols-header .header {
+  @apply col-start-4 row-start-1 col-span-4 mt-auto;
+}
+
+.slidev-layout.two-cols-header .header > * {
+  @apply mb-0;
+}
+
+.slidev-layout.two-cols-header .left-title {
+  @apply col-start-2 row-start-2 col-span-3 mt-auto mr-4 mb-4;
+}
+
+.slidev-layout.two-cols-header .right-title {
+  @apply col-start-5 row-start-2 col-span-3 mt-auto mr-4 mb-4;
+}
+
+.slidev-layout.two-cols-header .left-content {
+  @apply col-start-2 row-start-3 col-span-3 row-span-2 mb-auto mr-4;
+}
+
+.slidev-layout.two-cols-header .right-content {
+  @apply col-start-5 row-start-3 col-span-3 row-span-2 mb-auto mr-4;
+}
+
 .slidev-layout.quote .portrait {
   @apply col-span-3 row-span-4 overflow-hidden;
 }
@@ -257,20 +299,77 @@ div.global-stripes > div:not(:last-child) {
   @apply col-start-2 row-start-5 col-span-6 text-left mb-auto text-sm;
 }
 
+.slidev-layout.image-left .image {
+  @apply col-start-1 row-start-1 col-span-4 row-span-5 overflow-hidden;
+}
+
+.slidev-layout.image-left .title {
+  @apply col-start-5 row-start-2 col-span-3 row-span-1 text-right mt-auto pl-4;
+}
+
+.slidev-layout.image-left .content {
+  @apply col-start-5 row-start-3 col-span-3 text-right pl-4;
+}
+
+.slidev-layout.image-right .image {
+  @apply col-start-5 row-start-1 col-span-4 row-span-5 overflow-hidden;
+}
+
+.slidev-layout.image-right .title {
+  @apply col-start-2 row-start-2 col-span-3 row-span-1 text-left mt-auto pr-4;
+}
+
+.slidev-layout.image-right .content {
+  @apply col-start-2 row-start-3 col-span-3 text-left pr-4;
+}
+
 .slidev-layout.full .image {
-  @apply col-span-8 row-span-5 overflow-hidden;
+  @apply col-span-8 row-span-5;
 }
 
 .slidev-layout.full .image img {
   @apply object-cover w-full h-full;
 }
 
+.slidev-layout.full .content {
+  @apply absolute w-full h-full backdrop-blur-xl transition-all flex-col justify-center content-center;
+}
+
+.slidev-layout.full .content .container {
+  @apply text-center bg-slate-800 dark:bg-slate-200 text-slate-200 dark:text-slate-800 bg-opacity-50 dark:bg-opacity-50 p-8;
+}
+
+.slidev-layout.full .content .container p {
+  @apply text-2xl;
+}
+
+.slidev-layout.full .content .container h2 {
+  @apply text-6xl;
+}
+
 .slidev-layout.cover .image {
   @apply col-span-8 row-span-2 overflow-hidden;
 }
 
-.slidev-layout.cover .image img {
+.slidev-layout.end .image {
+  @apply col-span-8 row-start-4 row-span-2 overflow-hidden;
+}
+
+.slidev-layout.cover .image img,
+.slidev-layout.end .image img {
   @apply object-cover w-full h-full;
+}
+
+.slidev-layout.end .content {
+  @apply col-start-3 col-span-4 row-span-2 mt-auto;
+}
+
+.slidev-layout.end .author {
+  @apply col-start-3 row-start-3 col-span-2;
+}
+
+.slidev-layout.end .email {
+  @apply col-start-5 row-start-3 col-span-2;
 }
 
 .slidev-layout.quote :is(h1, h2, h3, h4, h5, h6) {
@@ -278,7 +377,7 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout .link-index {
-  @apply col-start-2 row-start-5 col-span-6 text-xs;
+  @apply col-start-2 row-start-5 col-span-6 text-xs p-y-4;
 }
 
 .slidev-layout .link-index ul {
@@ -292,7 +391,7 @@ div.global-stripes > div:not(:last-child) {
 .slidev-layout .link-index li::before {
   content: "[" counter(item) "]";
   counter-increment: item;
-  @apply font-semibold;
+  @apply font-700;
 }
 
 .slidev-layout .link-index ul {
@@ -300,5 +399,53 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout .indexed-link {
-  @apply font-bold -z-10 scale-200 absolute text-slate-300 dark:text-slate-700;
+  @apply font-script font-bold text-3xl absolute inline-flex text-slate-400 dark:text-slate-600 -z-5;
+}
+
+.slidev-layout .indexed-link::before {
+  content: "[";
+}
+
+.slidev-layout .indexed-link::after {
+  content: "]";
+}
+
+.slidev-layout .indexed-link ul {
+  @apply list-none flex;
+}
+
+.slidev-layout .indexed-link li {
+  @apply m-0 p-0 leading-inherit;
+}
+
+.slidev-layout .indexed-link li:not(:last-of-type) {
+  @apply after:content-[","];
+}
+
+.slidev-layout.iframe-right .iframe {
+  @apply col-start-5 row-start-1 col-span-4 row-span-5 overflow-hidden;
+}
+
+.slidev-layout.iframe-right .title {
+  @apply col-start-2 row-start-2 col-span-3 row-span-1 text-left mt-auto pr-4;
+}
+
+.slidev-layout.iframe-right .content {
+  @apply col-start-2 row-start-3 col-span-3 text-left pr-4;
+}
+
+.slidev-layout.iframe-left .iframe {
+  @apply col-start-1 row-start-1 col-span-4 row-span-5 overflow-hidden;
+}
+
+.slidev-layout.iframe-left .title {
+  @apply col-start-5 row-start-2 col-span-3 row-span-1 text-right mt-auto pl-4;
+}
+
+.slidev-layout.iframe-left .content {
+  @apply col-start-5 row-start-3 col-span-3 text-right pl-4;
+}
+
+.slidev-layout.iframe .iframe {
+  @apply col-span-8 row-span-5;
 }

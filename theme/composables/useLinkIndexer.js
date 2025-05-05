@@ -29,8 +29,8 @@ export function useLinkIndexer(contentRef) {
     });
 
     groups.forEach(group => {
-      const indexes = group.map(item => item.idx + 1).join(", ");
-      const span = `<span class="indexed-link">[${indexes}]</span>`;
+      const indexes = group.map(item => item.idx + 1).join("</li><li>");
+      const span = `<span class="indexed-link"><ul><li>${indexes}</li><ul></span>`;
 
       group[0].anchor.outerHTML = span;
       group.slice(1).forEach(item => item.anchor.remove());

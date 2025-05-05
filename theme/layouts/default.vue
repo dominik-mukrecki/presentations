@@ -1,18 +1,22 @@
 <script setup>
-import { ref } from 'vue'
-import { useLinkIndexer } from '../composables/useLinkIndexer'
-import LinkIndex from '../components/LinkIndex.vue'
+import { ref, onMounted, nextTick } from 'vue'
+import { useLinkCollector } from '../composables/useLinkCollector'
 
 const contentRef = ref(null)
-const { links } = useLinkIndexer(contentRef)
+const { collectLinks } = useLinkCollector()
+
+onMounted(async () => {
+  await nextTick()
+  collectLinks(contentRef)
+})
 </script>
 
 <template>
-  <div class="slidev-layout default">
+  <div class="slidev-layout default" ref="contentRef">
     <div class="title">
       <slot name="title" />
     </div>
-    <div class="content" ref="contentRef">
+    <div class="content">
       <slot name="content" />
     </div>
     <LinkIndex :links="links" />

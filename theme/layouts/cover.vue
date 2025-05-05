@@ -7,7 +7,7 @@ const image = $frontmatter.image || ''
 </script>
 
 <template>
-  <div class="slidev-layout cover" :style="style">
+  <div class="slidev-layout cover">
     <div class="image">
       <img v-if="image" :src="image" />
     </div>

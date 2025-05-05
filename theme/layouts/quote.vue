@@ -22,5 +22,6 @@ const image = $frontmatter.image || ''
     <div class="author">
       <slot name="author" />
     </div>
+
   </div>
 </template>
