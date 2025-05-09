@@ -7,9 +7,9 @@ const url = $frontmatter.url || ''
 
 <template>
   <div class="slidev-layout iframe-left">
-    <div class="iframe">
+    </div>    <div class="iframe">
       <iframe v-if="url" :src="url" frameborder="0" class="w-full h-full"></iframe>
-    </div>
+
     <div class="title">
       <slot name="title" />
     </div>

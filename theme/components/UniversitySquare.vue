@@ -1,5 +1,5 @@
 <template>
-    <div class="university-square">
+    <div class="university-square hidden">
         <LightOrDark>
             <template #dark>
                 <img src="../public/images/path461.svg">

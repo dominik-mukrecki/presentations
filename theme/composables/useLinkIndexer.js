@@ -1,41 +1,27 @@
-// composables/useLinkIndexer.js
-import { ref, onMounted, nextTick } from "vue";
+import { ref, onMounted, nextTick } from 'vue'
 
 export function useLinkIndexer(contentRef) {
-  const links = ref([]);
+  const links = ref([])
 
   onMounted(async () => {
-    await nextTick();
+    await nextTick()
 
-    if (!contentRef.value) return;
+    if (!contentRef.value) return
 
-    const anchors = contentRef.value.querySelectorAll("a");
-    const groups = [];
-    let currentGroup = [];
-
-    anchors.forEach((anchor, idx) => {
+    contentRef.value.querySelectorAll('a').forEach((anchor, idx) => {
       links.value.push({
         href: anchor.href,
         originalText: anchor.textContent,
-      });
+        index: idx + 1,
+      })
 
-      currentGroup.push({ anchor, idx });
+      const sup = document.createElement('sup')
+      sup.className = 'indexed-link'
+      sup.textContent = `${idx + 1}`
 
-      const nextSibling = anchor.nextSibling;
-      if (!nextSibling || nextSibling.nodeType !== Node.ELEMENT_NODE || nextSibling.tagName !== 'A') {
-        groups.push(currentGroup);
-        currentGroup = [];
-      }
-    });
+      anchor.replaceWith(sup)
+    })
+  })
 
-    groups.forEach(group => {
-      const indexes = group.map(item => item.idx + 1).join("</li><li>");
-      const span = `<span class="indexed-link"><ul><li>${indexes}</li><ul></span>`;
-
-      group[0].anchor.outerHTML = span;
-      group.slice(1).forEach(item => item.anchor.remove());
-    });
-  });
-
-  return { links };
+  return { links }
 }

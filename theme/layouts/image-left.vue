@@ -10,6 +10,9 @@ const image = $frontmatter.image || ''
         <div class="image">
             <img v-if="image" :src="image" />
         </div>
+        <div class="image-drop">
+            <img v-if="image" :src="image" />
+        </div>
         <div class="title">
             <slot name="title" />
         </div>

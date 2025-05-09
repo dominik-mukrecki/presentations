@@ -17,7 +17,6 @@ const layoutClass = computed(() => `layout-${$slidev.nav.currentLayout}`);
     <div class="left-upper">
       <div class="title">{{ $slidev.configs.title }}</div>
       <div class="author">{{ $slidev.configs.author }}</div>
-      <div class="email">{{ $slidev.configs.email }}</div>
     </div>
     <div class="slides-compass right-upper">
       <div>

@@ -1,14 +1,10 @@
 <script setup>
-import { ref, onMounted, nextTick } from 'vue'
-import { useLinkCollector } from '../composables/useLinkCollector'
+import { ref } from 'vue'
+import LinkIndex from '../components/LinkIndex.vue'
+import { useLinkIndexer } from '../composables/useLinkIndexer'
 
 const contentRef = ref(null)
-const { collectLinks } = useLinkCollector()
-
-onMounted(async () => {
-  await nextTick()
-  collectLinks(contentRef)
-})
+const { links } = useLinkIndexer(contentRef)
 </script>
 
 <template>
