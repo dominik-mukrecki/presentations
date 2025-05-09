@@ -4,7 +4,7 @@ transition: slide-up
 download: true
 theme: ./theme
 aspectRatio: 16/9
-image: https://unsplash.it/1600/360
+image: https://unsplash.it/1920/432
 author: Dominik Mukrecki, MD
 title: "Neurodevelopmental Disorders: Stimulations in Diagnosis and Therapy"
 ---
@@ -40,7 +40,7 @@ layout: center
 
 ---
 layout: section
-transition: slide-down
+image: https://unsplash.it/1920/432
 ---
 
 ::title::
@@ -204,7 +204,7 @@ layout: default
 
 ---
 layout: section
-transition: slide-down
+image: https://unsplash.it/1920/432
 ---
 
 ::title::
@@ -246,7 +246,7 @@ layout: two-cols-header
 
 ---
 layout: section
-transition: slide-down
+image: https://unsplash.it/1920/432
 ---
 
 ::title::
@@ -309,7 +309,7 @@ contentClass: text-white
 
 ---
 layout: section
-transition: slide-down
+image: https://unsplash.it/1920/432
 ---
 
 
@@ -369,7 +369,7 @@ contentClass: text-white
 
 ---
 layout: section
-transition: slide-down
+image: https://unsplash.it/1920/432
 ---
 
 ::title::
@@ -518,7 +518,7 @@ Current flow modelling pipeline diagram.
 
 ---
 layout: section
-transition: slide-down
+image: https://unsplash.it/1920/432
 ---
 
 ::title::
@@ -595,6 +595,24 @@ layout: two-cols-header
 [Wang, M., & Reid, D. (2011). Virtual reality in pediatric neurorehabilitation: attention deficit hyperactivity disorder, autism and cerebral palsy. *Neuroepidemiology*, 36(1), 2–18.](https://doi.org/10.1159/000320989)
 
 ---
+layout: image
+image: https://www.researchgate.net/profile/Joel-Lai-5/publication/358095244/figure/fig1/AS:11431281086807931@1664346031453/Types-of-virtual-reality-experiences-and-accompanying-platforms-See-section-on.png
+---
+
+::content::
+
+Types of virtual reality experiences and accompanying platforms
+
+---
+layout: image
+image: https://www.researchgate.net/profile/Joel-Lai-5/publication/358095244/figure/fig2/AS:11431281086843438@1664346031544/Types-of-augmented-reality-experiences-and-accompanying-platforms-See-section-on.png
+---
+
+::content::
+
+Types of augmented reality experiences and accompanying platforms
+
+---
 layout: end
 image: https://unsplash.it/1920/432
 email: dominik@mukrecki.pl
@@ -604,4 +622,4 @@ email: dominik@mukrecki.pl
 
 # Thank You!
 
-Thank you for joining this seminar. I'm eager to discuss these insights further and explore collaborations.
+Thank you for joining this seminar. I'm eager to discuss these insights further.
