@@ -477,3 +477,15 @@ div.global-stripes > div:not(:last-child) {
 .slidev-layout .mermaid svg {
   @apply;
 }
+
+.slidev-layout.references .title {
+  @apply col-start-2 col-span-6 mt-auto;
+}
+
+.slidev-layout.references .content {
+  @apply col-start-2 col-span-6 row-start-2 row-span-3 text-xs;
+}
+
+.slidev-layout.references .content ul li {
+  @apply text-10px truncate;
+}

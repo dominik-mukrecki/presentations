@@ -4,7 +4,7 @@ transition: slide-up
 download: true
 theme: ./theme
 aspectRatio: 16/9
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 author: Dominik Mukrecki, MD
 title: "Neurodevelopmental Disorders: Stimulations in Diagnosis and Therapy"
 ---
@@ -29,6 +29,7 @@ Hello everyone! I'm Dominik Mukrecki, MD, and it's a pleasure to welcome you all
 
 ---
 layout: center
+transition: slide-down
 ---
 
 ::content::
@@ -47,7 +48,7 @@ In this seminar, we're focusing specifically on Autism Spectrum Disorder (ASD) a
 
 ---
 layout: section
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 ::title::
@@ -86,8 +87,6 @@ layout: two-cols-header
 
 - Diagnostics: EEG, sensory evoked potentials.
 - Treatments: Neuromodulation (TMS, tDCS).
-
-[Purves, D. et al. (2018). *Neuroscience* (6th ed.).](https://global.oup.com/academic/product/neuroscience-9781605353807)
 
 <!--
 From a neuroscience viewpoint, stimulation involves how physical inputs—like light, sound, or touch—are detected by specialized neural receptors throughout our bodies. These receptors convert, or transduce, these external stimuli into electrical signals. Those signals travel through nerve pathways to specific brain regions where they're processed and interpreted, resulting in perception or action. For example, when we see something, light enters the eye, hits the retina, and is converted into neural signals sent to the visual cortex.
@@ -128,7 +127,6 @@ layout: two-cols-header
 - Learning by pairing neutral and unconditioned stimuli.
 - Example: Bell sound paired with food → dog salivation.
 
-[Rescorla, R. A. (2008). *Classical Conditioning*.](https://doi.org/10.1016/B978-012370509-9.00127-2)
 
 ::right-title::
 
@@ -139,7 +137,6 @@ layout: two-cols-header
 - Learning through reinforcement or punishment.
 - Example: Rat presses lever for food reward.
 
-[Skinner, B. F. (1938). *The Behavior of Organisms*.](https://archive.org/details/in.ernet.dli.2015.191112)
 
 <!--
 From a behavioral perspective, "stimulation" refers to environmental cues or events that shape our behaviors through learning. Two foundational concepts here are classical and operant conditioning.
@@ -209,7 +206,6 @@ layout: two-cols-header
 - Real-time adjustments via closed-loop stimulation.
 - Example: Neurostimulation guided by EEG feedback.
 
-[Wiener, N. (1948). *Cybernetics*.](https://archive.org/details/cyberneticsorcon00wien)
 
 <!--
 From a biocybernetics viewpoint, stimulation is understood through the lens of feedback and control mechanisms. Biological systems naturally use feedback loops to maintain stability or homeostasis, constantly adjusting internal conditions. A classic example is how the body maintains blood glucose levels: when glucose rises, insulin is released to lower it; when glucose drops, glucagon raises it again.
@@ -235,6 +231,7 @@ This image illustrates how blood glucose levels are regulated through a natural 
 
 ---
 layout: default
+transition: slide-down
 ---
 
 ::title::
@@ -259,7 +256,7 @@ Together, these three perspectives provide a comprehensive framework for effecti
 -->
 ---
 layout: section
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 ::title::
@@ -288,7 +285,6 @@ layout: two-cols-header
 - Intellectual Disabilities
 - Communication, Motor and Specific Learning Disorders
 
-[American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders (5th ed.)*. Arlington, VA: American Psychiatric Publishing.](https://doi.org/10.1176/appi.books.9780890425596)
 
 ::right-title::
 
@@ -300,16 +296,16 @@ layout: two-cols-header
 - Persistent lifelong effects
 - Social, cognitive, motor impacts
 
-[Thapar, A., & Cooper, M. (2023). *Rutter's Child and Adolescent Psychiatry* (7th ed.). Wiley-Blackwell.](https://www.wiley.com/en-us/Rutter%27s+Child+and+Adolescent+Psychiatry+and+Psychology%2C+7th+Edition-p-00382390)
 
 
 <!--
 This slide presents an overview of neurodevelopmental disorders according to the DSM-5, the standard classification manual used by clinicians worldwide. On the left, we see the main disorders, including Autism Spectrum Disorder (ASD), Attention-Deficit/Hyperactivity Disorder (ADHD), Intellectual Disabilities, and various Communication, Motor, and Specific Learning Disorders.
 On the right, you'll notice the common characteristics these conditions share: they typically start early in childhood, have persistent lifelong effects, and significantly impact social interactions, cognitive abilities, and motor skills. Understanding these core features is essential for effective diagnosis and helps us tailor interventions specifically designed to address the unique challenges associated with each disorder.
 -->
+
 ---
 layout: section
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 ::title::
@@ -334,7 +330,6 @@ layout: two-cols-header
 - Repetitive behaviors, rigidity ("Insistence on Sameness")
 - Communication difficulties
 
-[Lai, M.-C., Lombardo, M. V., & Baron-Cohen, S. (2014). Autism. *The Lancet*, 383(9920), 896–910.](https://doi.org/10.1016/S0140-6736(13)61539-1)
 
 ::right-title::
 
@@ -345,7 +340,6 @@ layout: two-cols-header
 - Imbalance in GABA/glutamate systems
 - Atypical neural connectivity
 
-[Fernandez, B. A., & Scherer, S. W. (2017). Syndromic autism spectrum disorders: moving from a clinically defined to a molecularly defined approach. *Dialogues in Clinical Neuroscience*, 19(4), 353–371.](https://doi.org/10.31887/DCNS.2017.19.4/sscherer)
 
 <!--
 Autism Spectrum Disorder, or ASD, is a neurodevelopmental condition characterized by challenges in social communication and interaction, repetitive behaviors, and rigid adherence to routines, often described as "insistence on sameness." Clinically, individuals with ASD might find it difficult to interpret social cues, maintain eye contact, or participate comfortably in social settings.
@@ -369,10 +363,25 @@ ASD involves social communication deficits, repetitive behaviors, and restricted
 <!--
 This image nicely illustrates the diverse features of Autism Spectrum Disorder. ASD includes significant challenges in social communication, like understanding social cues or initiating interactions, and often involves repetitive behaviors and restricted interests—such as intense fixation on specific topics or routines. As the graphic demonstrates, each individual's profile varies significantly in severity and the combination of symptoms they experience. This wide variation underlines why we refer to autism as a "spectrum" and highlights the importance of personalized therapeutic approaches tailored to each individual's unique strengths and challenges.
 -->
+
+---
+layout: image
+image: https://www.nimh.nih.gov/sites/default/files/images/news-items/brain_regions_asd.png
+---
+
+::content::
+
+This illustration highlights brain regions commonly affected in Autism Spectrum Disorder (ASD), including the amygdala, hippocampus, and frontal cortex, which are associated with social behavior, memory, and executive functioning.
+
+<!--
+This diagram showcases key brain areas implicated in ASD. Notably, the amygdala, involved in emotion processing; the hippocampus, crucial for memory formation; and the frontal cortex, responsible for executive functions. Alterations in these regions may contribute to the core symptoms observed in individuals with autism.
+-->
+
 ---
 layout: full
 image: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnk3MjZ1bnoxbXI3NmJvNG5odmZzOGQ1MGk5am1wenZkdHl0NnB3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlG615ZOH0rcGdy/giphy.gif
 contentClass: text-white
+transition: slide-down
 ---
 
 ::content::
@@ -385,7 +394,7 @@ contentClass: text-white
 
 ---
 layout: section
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 
@@ -411,7 +420,6 @@ layout: two-cols-header
 - Impulsivity, hyperactivity
 - Academic and social impairments
 
-[Faraone, Stephen V et al. “Attention-deficit/hyperactivity disorder.” Nature reviews. Disease primers vol. 1 15020. 6 Aug. 2015](https://doi.org/10.1038/nrdp.2015.20)
 
 ::right-title::
 
@@ -422,7 +430,6 @@ layout: two-cols-header
 - Dopamine/norepinephrine dysregulation
 - Frontal-striatal dysfunctions
 
-[Cortese, Samuele. “Pharmacologic Treatment of Attention Deficit-Hyperactivity Disorder.” The New England journal of medicine vol. 383,11 (2020): 1050-1056.](https://doi.org/10.1056/NEJMra1917069)
 
 <!--
 Attention-Deficit/Hyperactivity Disorder, or ADHD, is a neurodevelopmental condition marked by persistent attention difficulties, hyperactivity, and impulsivity. Clinically, individuals with ADHD often struggle with maintaining focus, become easily distracted, or frequently interrupt others. These challenges can significantly affect academic performance, social interactions, and everyday functioning.
@@ -443,9 +450,23 @@ This diagram provides a clear conceptual overview of ADHD, illustrating how unde
 -->
 
 ---
+layout: image
+image: https://www.researchgate.net/publication/323055293/figure/fig1/AS:862952177532928@1582755240200/Brain-Mechanisms-in-ADHD-a-The-cortical-regions-lateral-view-of-the-brain-have-a.jpg
+---
+
+::content::
+
+This image depicts cortical regions involved in Attention-Deficit/Hyperactivity Disorder (ADHD), such as the prefrontal cortex and basal ganglia, which play roles in attention regulation and impulse control.
+
+<!--
+Here, we see brain structures commonly associated with ADHD. The prefrontal cortex is essential for attention and decision-making processes, while the basal ganglia are involved in motor control and behavioral regulation. Dysfunctions in these areas are linked to the inattention and hyperactivity symptoms characteristic of ADHD.
+-->
+
+---
 layout: full
 image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNieDk4ZHUwMjdta3ZzNnJ2dWh3MHFqbTBmZTR3ZWtkOHlkczV3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aI2hfQOnxm5mwh9edQ/giphy.gif
 contentClass: text-white
+transition: slide-down
 ---
 
 ::content::
@@ -458,7 +479,7 @@ contentClass: text-white
 
 ---
 layout: section
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 ::title::
@@ -485,7 +506,6 @@ layout: two-cols-header
 - Measures cortical inhibition (ADHD)
 - Reveals cortical plasticity issues (ASD)
 
-[Enticott, Peter G et al. “GABAergic activity in autism spectrum disorders: an investigation of cortical inhibition via transcranial magnetic stimulation.” Neuropharmacology vol. 68 (2013): 202-9.](https://doi.org/10.1016/j.neuropharm.2012.06.017)
 
 ::right-title::
 
@@ -496,7 +516,6 @@ layout: two-cols-header
 - Reduces repetitive behaviors in ASD
 - Improves attention in ADHD
 
-[Barahona-Corrêa, J Bernardo et al. “Repetitive Transcranial Magnetic Stimulation for Treatment of Autism Spectrum Disorder: A Systematic Review and Meta-Analysis.” Frontiers in integrative neuroscience vol. 12 27. 9 Jul. 2018](https://doi.org/10.3389/fnint.2018.00027)
 
 <!--
 Transcranial Magnetic Stimulation, or TMS, is a non-invasive neuromodulation technique that uses magnetic pulses to stimulate specific brain regions. Diagnostically, TMS can measure cortical inhibition, which is often disrupted in ADHD, and it also helps reveal abnormalities in cortical plasticity typically seen in ASD.
@@ -534,8 +553,7 @@ layout: default
 
 - **EEG Output Parameters:** Choosing electrode placement, defining the measures to be recorded (like amplitude or latency of evoked potentials), and scheduling the timing of EEG recordings in relation to TMS pulses.
 
-- **Brain State Considerations:** Accounting for factors such as the participant's developmental stage, behavioral context, dynamic brain states, and any underlying neurological conditions to tailor the study design effectively.[Farzan, Faranak et al. “Characterizing and Modulating Brain Circuitry through Transcranial Magnetic Stimulation Combined with Electroencephalography.” Frontiers in neural circuits vol. 10 73. 22 Sep. 2016](https://doi.org/10.3389/fncir.2016.00073)
-
+- **Brain State Considerations:** Accounting for factors such as the participant's developmental stage, behavioral context, dynamic brain states, and any underlying neurological conditions to tailor the study design effectively.
 <!--
 This slide outlines the structured framework for designing combined TMS-EEG studies. First, we define TMS input parameters, such as where precisely to stimulate the brain (often the dorsolateral prefrontal cortex), the specific type of stimulation (single-pulse or repetitive), and when to deliver these pulses. Next, we specify EEG output parameters, deciding on electrode placement, selecting what EEG features to measure—like amplitude or latency—and scheduling recordings to effectively capture responses following TMS pulses. Finally, it's crucial to consider the individual's brain state, including developmental stage, behavioral context, current mental state, and existing neurological conditions. These considerations allow researchers and clinicians to tailor the intervention and ensure optimal effectiveness for each person.
 -->
@@ -570,7 +588,6 @@ layout: two-cols-header
 - Enhances social skills, empathy
 - Long-term safety demonstrated
 
-[García-González, Sara et al. “Transcranial direct current stimulation in Autism Spectrum Disorder: A systematic review and meta-analysis.” European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology vol. 48 (2021): 89-109.](https://doi.org/10.1016/j.euroneuro.2021.02.017)
 
 ::right-title::
 
@@ -581,7 +598,6 @@ layout: two-cols-header
 - Boosts executive functions, attention
 - Safe for children/adolescents
 
-[Nejati, Vahid et al. “Transcranial Direct Current Stimulation Improves Executive Dysfunctions in ADHD: Implications for Inhibitory Control, Interference Control, Working Memory, and Cognitive Flexibility.” Journal of attention disorders vol. 24,13 (2020): 1928-1943.](https://doi.org/10.1177/1087054717730611)
 
 <!--
 Transcranial Direct Current Stimulation, or tDCS, is another exciting neuromodulation technique. It involves applying a low-intensity electrical current directly to specific brain regions through electrodes placed on the scalp.
@@ -622,7 +638,7 @@ layout: default
 4. Finite element model for E-field distribution solving
 5. Grey and white matter surfaces mesh creating
 6. E-field vectors vectors extracting...
-7. ...and averaging.[Inter-individual variability in current direction for common tDCS montages](https://doi.org/10.1016/j.neuroimage.2022.119501)
+7. ...and averaging.
 
 <!--
 This slide describes the step-by-step process for modeling current flow in tDCS treatments. First, we start by taking structural MRI scans to visualize brain anatomy. Next, we segment the MRI data into different tissue types—like skin, bone, and brain—to precisely understand how current will travel through each tissue. Then we position the electrodes strategically based on our therapeutic goals. Using advanced computational techniques, we solve finite element models to predict how electrical fields distribute within the brain. From there, we create detailed meshes of the brain’s grey and white matter surfaces to accurately map current pathways. We extract electric-field vectors to see precisely how the current is directed, and finally, we average these data to optimize and tailor stimulation protocols for each individual's unique brain structure, enhancing treatment effectiveness and safety.
@@ -631,6 +647,7 @@ This slide describes the step-by-step process for modeling current flow in tDCS 
 ---
 layout: image
 image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922006176-gr2.jpg
+transition: slide-down
 ---
 
 ::content::
@@ -643,7 +660,7 @@ This diagram visually summarizes the pipeline for modeling current flow in tDCS 
 
 ---
 layout: section
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 ::title::
@@ -668,7 +685,6 @@ layout: two-cols-header
 - Improves attention, reduces hyperactivity.
 - Minimal side effects, safe for children and adolescents.
 
-[McGough, J. J., Sturm, A., Cowen, J., et al. (2019). Double-Blind, Sham-Controlled, Pilot Study of Trigeminal Nerve Stimulation for Attention-Deficit/Hyperactivity Disorder. *Journal of the American Academy of Child & Adolescent Psychiatry*, 58(4), 403–411.](https://doi.org/10.1016/j.jaac.2018.11.014)
 
 ::right-title::
 
@@ -680,7 +696,6 @@ layout: two-cols-header
 - Non-invasive auricular stimulation (ear-based), patient-friendly.
 - Preliminary evidence, ongoing clinical research needed.
 
-[Kong, J., Fang, J., Park, J., et al. (2018). Transcutaneous auricular vagus nerve stimulation: a promising method for treatment of autism spectrum disorders. *Frontiers in Neuroscience*, 12, 841.](https://doi.org/10.3389/fnins.2016.00609)
 
 <!-- Speaker script:
 Peripheral nerve stimulation includes two promising non-invasive techniques—Trigeminal Nerve Stimulation (TNS) and Vagus Nerve Stimulation (VNS). TNS is FDA-approved for ADHD, improving attention and reducing hyperactivity safely and effectively, even in young populations. On the other side, VNS—particularly through the non-invasive auricular method—has shown potential in addressing anxiety and enhancing social behaviors in individuals with autism. Although evidence for VNS remains preliminary, these techniques collectively represent important advances towards personalized, non-invasive treatments for neurodevelopmental disorders.
@@ -702,6 +717,7 @@ This diagram highlights the electrode setup for Trigeminal Nerve Stimulation, or
 ---
 layout: image
 image: https://www.researchgate.net/publication/368865671/figure/fig1/AS:11431281123362329@1677701629814/nvasive-and-non-invasive-forms-of-vagus-nerve-stimulation-VNS-A-Invasive-VNS-where-a.png
+transition: slide-down
 ---
 
 ::content::
@@ -715,7 +731,7 @@ In contrast, this figure depicts non-invasive transcutaneous auricular vagus ner
 
 ---
 layout: section
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 ::title::
@@ -743,7 +759,6 @@ layout: two-cols-header
 - Significant attention improvement
 - Comparable to medications in efficacy
 
-[Cortese, Samuele et al. “Neurofeedback for Attention-Deficit/Hyperactivity Disorder: Meta-Analysis of Clinical and Neuropsychological Outcomes From Randomized Controlled Trials.” Journal of the American Academy of Child and Adolescent Psychiatry vol. 55,6 (2016): 444-55.](https://doi.org/10.1016/j.jaac.2016.03.007)
 
 ::right-title::
 
@@ -754,7 +769,6 @@ layout: two-cols-header
 - Helps with cognitive flexibility
 - Less evidence for core symptoms
 
-[Tosti, Beatrice et al. “Integrated use of biofeedback and neurofeedback techniques in treating pathological conditions and improving performance: a narrative review.” Frontiers in neuroscience vol. 18 1358481. 19 Mar. 2024](https://doi.org/10.3389/fnins.2024.1358481)
 
 <!--
 EEG Neurofeedback, also known simply as neurofeedback, is a powerful technique that allows individuals to directly influence their own brain activity.
@@ -794,7 +808,6 @@ layout: two-cols-header
 - Immersive social skill training
 - Effective in high-functioning cases
 
-[Yang, Y.-H., & Kang, S.-H. (2020). The effectiveness of virtual reality-based social skills training for children with autism spectrum disorder: A meta-analysis. *Journal of Autism and Developmental Disorders*, 50(5), 1825–1838.](https://doi.org/10.1007/s10803-019-03999-3)
 
 ::right-title::
 
@@ -805,7 +818,6 @@ layout: two-cols-header
 - Improves attention, reduces impulsivity
 - Virtual classroom simulations for assessment
 
-[Wang, M., & Reid, D. (2011). Virtual reality in pediatric neurorehabilitation: attention deficit hyperactivity disorder, autism and cerebral palsy. *Neuroepidemiology*, 36(1), 2–18.](https://doi.org/10.1159/000320989)
 
 <!--
 Virtual Reality (VR) is an exciting technology increasingly used in therapy for neurodevelopmental disorders.
@@ -827,6 +839,7 @@ This diagram shows the various types of virtual reality (VR) experiences and the
 ---
 layout: image
 image: https://www.researchgate.net/profile/Joel-Lai-5/publication/358095244/figure/fig2/AS:11431281086843438@1664346031544/Types-of-augmented-reality-experiences-and-accompanying-platforms-See-section-on.png
+transition: slide-down
 ---
 
 ::content::
@@ -839,11 +852,16 @@ This diagram outlines various types of Augmented Reality (AR) experiences along 
 
 ---
 layout: section
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 ---
 
 ::title::
 
 # Modeling and Simulating the Behavior of a Non-verbal Autistic Individual: A Digital Twin Approach
+
+<!--
+I am excited to share the news that I will be presenting this concept at the annual modelling and simulation conference, PhD Colloquium in Madrid, in a few weeks' time.
+-->
 
 ---
 layout: default
@@ -882,8 +900,9 @@ This is the Isaac GR00T N1, NVIDIA’s latest advancement in robotics simulation
 
 ---
 layout: end
-image: https://unsplash.it/1920/432
+image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 email: dominik@mukrecki.pl
+transition: slide-down
 ---
 
 ::content::
@@ -894,3 +913,36 @@ Thank you for joining this seminar. I'm eager to discuss these insights further.
 <!--
 Thank you all very much for your attention and participation today. I truly appreciate the opportunity to discuss these innovative approaches to diagnosing and treating neurodevelopmental disorders. If you have any questions, thoughts, or would like to explore potential collaborations, please feel free to reach out to me. I look forward to continuing our discussion and exchanging ideas.
 -->
+
+---
+layout: references
+---
+
+::title::
+
+# References
+
+::content::
+
+- [Purves, D. et al. (2018). *Neuroscience* (6th ed.).](https://global.oup.com/academic/product/neuroscience-9781605353807)
+- [Rescorla, R. A. (2008). *Classical Conditioning*.](https://doi.org/10.1016/B978-012370509-9.00127-2)
+- [Skinner, B. F. (1938). *The Behavior of Organisms*.](https://archive.org/details/in.ernet.dli.2015.191112)
+- [Wiener, N. (1948). *Cybernetics*.](https://archive.org/details/cyberneticsorcon00wien)
+- [American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders (5th ed.)*. Arlington, VA: American Psychiatric Publishing.](https://doi.org/10.1176/appi.books.9780890425596)
+- [Thapar, A., & Cooper, M. (2023). *Rutter's Child and Adolescent Psychiatry* (7th ed.). Wiley-Blackwell.](https://www.wiley.com/en-us/Rutter%27s+Child+and+Adolescent+Psychiatry+and+Psychology%2C+7th+Edition-p-00382390)
+- [Lai, M.-C., Lombardo, M. V., & Baron-Cohen, S. (2014). Autism. *The Lancet*, 383(9920), 896–910.](https://doi.org/10.1016/S0140-6736(13)61539-1)
+- [Fernandez, B. A., & Scherer, S. W. (2017). Syndromic autism spectrum disorders: moving from a clinically defined to a molecularly defined approach. *Dialogues in Clinical Neuroscience*, 19(4), 353–371.](https://doi.org/10.31887/DCNS.2017.19.4/sscherer)
+- [Faraone, Stephen V et al. “Attention-deficit/hyperactivity disorder.” Nature reviews. Disease primers vol. 1 15020. 6 Aug. 2015](https://doi.org/10.1038/nrdp.2015.20)
+- [Cortese, Samuele. “Pharmacologic Treatment of Attention Deficit-Hyperactivity Disorder.” The New England journal of medicine vol. 383,11 (2020): 1050-1056.](https://doi.org/10.1056/NEJMra1917069)
+- [Enticott, Peter G et al. “GABAergic activity in autism spectrum disorders: an investigation of cortical inhibition via transcranial magnetic stimulation.” Neuropharmacology vol. 68 (2013): 202-9.](https://doi.org/10.1016/j.neuropharm.2012.06.017)
+- [Barahona-Corrêa, J Bernardo et al. “Repetitive Transcranial Magnetic Stimulation for Treatment of Autism Spectrum Disorder: A Systematic Review and Meta-Analysis.” Frontiers in integrative neuroscience vol. 12 27. 9 Jul. 2018](https://doi.org/10.3389/fnint.2018.00027)
+- [Farzan, Faranak et al. “Characterizing and Modulating Brain Circuitry through Transcranial Magnetic Stimulation Combined with Electroencephalography.” Frontiers in neural circuits vol. 10 73. 22 Sep. 2016](https://doi.org/10.3389/fncir.2016.00073)
+- [García-González, Sara et al. “Transcranial direct current stimulation in Autism Spectrum Disorder: A systematic review and meta-analysis.” European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology vol. 48 (2021): 89-109.](https://doi.org/10.1016/j.euroneuro.2021.02.017)
+- [Nejati, Vahid et al. “Transcranial Direct Current Stimulation Improves Executive Dysfunctions in ADHD: Implications for Inhibitory Control, Interference Control, Working Memory, and Cognitive Flexibility.” Journal of attention disorders vol. 24,13 (2020): 1928-1943.](https://doi.org/10.1177/1087054717730611)
+- [Inter-individual variability in current direction for common tDCS montages](https://doi.org/10.1016/j.neuroimage.2022.119501)
+- [McGough, J. J., Sturm, A., Cowen, J., et al. (2019). Double-Blind, Sham-Controlled, Pilot Study of Trigeminal Nerve Stimulation for Attention-Deficit/Hyperactivity Disorder. *Journal of the American Academy of Child & Adolescent Psychiatry*, 58(4), 403–411.](https://doi.org/10.1016/j.jaac.2018.11.014)
+- [Kong, J., Fang, J., Park, J., et al. (2018). Transcutaneous auricular vagus nerve stimulation: a promising method for treatment of autism spectrum disorders. *Frontiers in Neuroscience*, 12, 841.](https://doi.org/10.3389/fnins.2016.00609)
+- [Cortese, Samuele et al. “Neurofeedback for Attention-Deficit/Hyperactivity Disorder: Meta-Analysis of Clinical and Neuropsychological Outcomes From Randomized Controlled Trials.” Journal of the American Academy of Child and Adolescent Psychiatry vol. 55,6 (2016): 444-55.](https://doi.org/10.1016/j.jaac.2016.03.007)
+- [Tosti, Beatrice et al. “Integrated use of biofeedback and neurofeedback techniques in treating pathological conditions and improving performance: a narrative review.” Frontiers in neuroscience vol. 18 1358481. 19 Mar. 2024](https://doi.org/10.3389/fnins.2024.1358481)
+- [Yang, Y.-H., & Kang, S.-H. (2020). The effectiveness of virtual reality-based social skills training for children with autism spectrum disorder: A meta-analysis. *Journal of Autism and Developmental Disorders*, 50(5), 1825–1838.](https://doi.org/10.1007/s10803-019-03999-3)
+- [Wang, M., & Reid, D. (2011). Virtual reality in pediatric neurorehabilitation: attention deficit hyperactivity disorder, autism and cerebral palsy. *Neuroepidemiology*, 36(1), 2–18.](https://doi.org/10.1159/000320989)
