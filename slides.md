@@ -11,6 +11,7 @@ title: "Neurodevelopmental Disorders: Stimulations in Diagnosis and Therapy"
 
 ---
 layout: intro
+level: 2
 ---
 
 ::title::
@@ -29,6 +30,7 @@ Hello everyone! I'm Dominik Mukrecki, MD, and it's a pleasure to welcome you all
 
 ---
 layout: center
+level: 2
 transition: slide-down
 ---
 
@@ -61,6 +63,7 @@ Now, let's clarify what we mean by "stimulation," as it's central to today's top
 
 ---
 layout: two-cols-header
+level: 2
 ---
 
 ::header::
@@ -94,7 +97,9 @@ Clinically, this concept of stimulation is essential. For diagnosis, techniques 
 -->
 
 ---
+level: 2
 layout: image
+title: Image
 image: https://cdn.britannica.com/77/144177-050-6E9FD92C/example-electroencephalogram-wakefulness-brain-waves-sleep.jpg
 ---
 
@@ -111,6 +116,7 @@ Delta waves, the slowest, dominate deep sleep and can indicate certain neurologi
 Clinically, analyzing these patterns helps identify issues like attention deficits, sleep disturbances, or seizure disorders, and guides interventions such as neurofeedback therapy, where individuals train to produce healthier brain-wave patterns.
 -->
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -146,6 +152,7 @@ These principles guide behavioral therapies widely used today, particularly effe
 -->
 
 ---
+level: 2
 layout: image-right
 image: https://cdn.britannica.com/23/242523-050-63DCE08D/skinner-box-operant-conditioning-chamber.jpg
 ---
@@ -163,6 +170,7 @@ This image shows a classic example of operant conditioning known as "Skinner's b
 -->
 
 ---
+level: 2
 layout: image-left
 image: https://specialeducationnotes.co.in/Ivan%20Pavlov_files/image002.jpg
 ---
@@ -180,6 +188,7 @@ This image illustrates Ivan Pavlov's famous classical conditioning experiment. P
 -->
 
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -213,6 +222,7 @@ Clinically, this feedback principle inspires real-time therapeutic methods such 
 -->
 
 ---
+level: 2
 layout: image-right
 image: https://images.my.labster.com/34ff03ae-bef1-45cc-9a94-a0732639f7b4/diabetes_glucose_regulation.en.x512.png
 ---
@@ -230,6 +240,7 @@ This image illustrates how blood glucose levels are regulated through a natural 
 -->
 
 ---
+level: 2
 layout: default
 transition: slide-down
 ---
@@ -267,6 +278,7 @@ image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 Now, let's shift our focus to neurodevelopmental disorders themselves, starting with their classification and core features. These disorders, including ASD and ADHD, typically manifest early in childhood and have profound, lifelong impacts on an individual's communication, social interactions, cognition, and daily functioning. Understanding their classifications and specific characteristics provides a critical foundation for effectively applying stimulation-based therapeutic approaches, which we will explore in the following sections.
 -->
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -313,6 +325,7 @@ image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 # Autism Spectrum Disorder (ASD)
 
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -348,6 +361,7 @@ Understanding both the clinical presentation and the underlying neurobiology of 
 -->
 
 ---
+level: 2
 layout: image-left
 image: https://cdn.psychologytoday.com/sites/default/files/styles/image-article_inline_full_caption/public/field_blog_entry_images/2022-07/anita_autism_wheel.png?itok=noV_YOB-
 ---
@@ -365,8 +379,10 @@ This image nicely illustrates the diverse features of Autism Spectrum Disorder. 
 -->
 
 ---
+level: 2
 layout: image
 image: https://www.nimh.nih.gov/sites/default/files/images/news-items/brain_regions_asd.png
+title: Image
 ---
 
 ::content::
@@ -378,6 +394,7 @@ This diagram showcases key brain areas implicated in ASD. Notably, the amygdala,
 -->
 
 ---
+level: 2
 layout: full
 image: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnk3MjZ1bnoxbXI3NmJvNG5odmZzOGQ1MGk5am1wenZkdHl0NnB3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlG615ZOH0rcGdy/giphy.gif
 contentClass: text-white
@@ -403,6 +420,7 @@ image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 # Attention-Deficit/Hyperactivity Disorder (ADHD)
 
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -437,7 +455,9 @@ From a neurobiological standpoint, ADHD has been linked to dysregulation of key 
 Understanding the clinical and neurobiological aspects of ADHD helps clinicians and researchers develop targeted interventions—such as medication, cognitive-behavioral strategies, and emerging neuromodulation therapies—to effectively support individuals living with ADHD.
 -->
 ---
+level: 2
 layout: image
+title: Image
 image: https://www.researchgate.net/profile/Mark-Rapport/publication/12040148/figure/fig1/AS:349279706206212@1460286179753/A-conceptual-model-of-attention-deficit-hyperactivity-disorder-ADHD-based-on-extant.png
 ---
 
@@ -450,6 +470,8 @@ This diagram provides a clear conceptual overview of ADHD, illustrating how unde
 -->
 
 ---
+title: Image
+level: 2
 layout: image
 image: https://www.researchgate.net/publication/323055293/figure/fig1/AS:862952177532928@1582755240200/Brain-Mechanisms-in-ADHD-a-The-cortical-regions-lateral-view-of-the-brain-have-a.jpg
 ---
@@ -463,6 +485,7 @@ Here, we see brain structures commonly associated with ADHD. The prefrontal cort
 -->
 
 ---
+level: 2
 layout: full
 image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNieDk4ZHUwMjdta3ZzNnJ2dWh3MHFqbTBmZTR3ZWtkOHlkczV3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aI2hfQOnxm5mwh9edQ/giphy.gif
 contentClass: text-white
@@ -490,6 +513,7 @@ image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 Now, let's dive into two exciting neuromodulation techniques—Transcranial Magnetic Stimulation (TMS) and Transcranial Direct Current Stimulation (tDCS). These methods directly target brain activity, using magnetic or electrical stimulation to modulate neural circuits. They're increasingly explored as promising tools for diagnosing and treating neurodevelopmental disorders like ASD and ADHD, offering new hope for effective interventions. Let's explore each in more detail.
 -->
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -523,6 +547,7 @@ Therapeutically, repetitive TMS has shown promise in reducing repetitive and res
 -->
 
 ---
+level: 2
 layout: image-right
 image: https://www.researchgate.net/publication/308419304/figure/fig1/AS:11431281153750812@1682533463861/The-basic-principle-of-transcranial-magnetic-stimulation-Figure-depicts-the-schematics.tif
 ---
@@ -540,6 +565,7 @@ This image clearly illustrates how Transcranial Magnetic Stimulation, or TMS, wo
 -->
 
 ---
+level: 2
 layout: default
 ---
 
@@ -559,8 +585,10 @@ This slide outlines the structured framework for designing combined TMS-EEG stud
 -->
 
 ---
+level: 2
 layout: image
 image: https://www.researchgate.net/publication/308419304/figure/fig2/AS:11431281153759504@1682533468123/A-system-diagram-guiding-the-design-of-TMS-EEG-studies-The-figure-presents-a-system.tif
+title: Image
 ---
 
 ::content::
@@ -572,6 +600,7 @@ This diagram visually summarizes the structured approach we just discussed for d
 -->
 
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -606,6 +635,7 @@ Similarly, in ADHD, tDCS shows significant promise by enhancing executive functi
 -->
 
 ---
+level: 2
 layout: image-left
 image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922006176-gr1.jpg
 ---
@@ -623,6 +653,7 @@ This image illustrates the polarization effects observed during TMS, showing how
 -->
 
 ---
+level: 2
 layout: default
 ---
 
@@ -645,9 +676,11 @@ This slide describes the step-by-step process for modeling current flow in tDCS 
 -->
 
 ---
+level: 2
 layout: image
 image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811922006176-gr2.jpg
 transition: slide-down
+title: Image
 ---
 
 ::content::
@@ -668,6 +701,7 @@ image: https://images.unsplash.com/photo-1620121692029-d088224ddc74
 # Peripheral Nerve Stimulation (TNS & VNS)
 
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -702,8 +736,10 @@ Peripheral nerve stimulation includes two promising non-invasive techniques—Tr
 -->
 
 ---
+level: 2
 layout: image
 image: https://www.researchgate.net/profile/Bernadette-Cortese/publication/360543805/figure/fig2/AS:1157093419683841@1652883977293/Setup-of-stimulation-to-target-underlying-trigeminal-nerve-anatomy-Overview-of-the.png
+title: Image
 ---
 
 ::content::
@@ -715,6 +751,8 @@ This diagram highlights the electrode setup for Trigeminal Nerve Stimulation, or
 -->
 
 ---
+level: 2
+title: Image
 layout: image
 image: https://www.researchgate.net/publication/368865671/figure/fig1/AS:11431281123362329@1677701629814/nvasive-and-non-invasive-forms-of-vagus-nerve-stimulation-VNS-A-Invasive-VNS-where-a.png
 transition: slide-down
@@ -744,6 +782,7 @@ Now let's explore some advanced technological approaches—EEG Neurofeedback and
 
 ---
 layout: two-cols-header
+level: 2
 ---
 
 ::header::
@@ -779,8 +818,10 @@ In the case of ASD, neurofeedback shows promising potential, especially in enhan
 -->
 
 ---
+level: 2
 layout: image
 image: https://www.researchgate.net/profile/Uros-Marusic/publication/329366944/figure/fig1/AS:699765385863169@1543848477204/A-diagram-presenting-the-neurofeedback-training-loop.jpg
+title: Image
 ---
 
 ::content::
@@ -792,6 +833,7 @@ This diagram illustrates the neurofeedback training loop clearly. The process be
 -->
 
 ---
+level: 2
 layout: two-cols-header
 ---
 
@@ -825,8 +867,10 @@ For Autism Spectrum Disorder, VR provides immersive environments to effectively 
 For ADHD, VR techniques offer engaging platforms for improving attention and reducing impulsivity. Virtual classrooms simulate realistic educational settings, allowing therapists to assess and train attention in a controlled yet engaging environment. This realistic approach helps individuals with ADHD develop stronger cognitive control, better focus, and effective management of impulsive behaviors.
 -->
 ---
+level: 2
 layout: image
 image: https://www.researchgate.net/profile/Joel-Lai-5/publication/358095244/figure/fig1/AS:11431281086807931@1664346031453/Types-of-virtual-reality-experiences-and-accompanying-platforms-See-section-on.png
+title: Image
 ---
 
 ::content::
@@ -837,9 +881,11 @@ Types of virtual reality experiences and accompanying platforms
 This diagram shows the various types of virtual reality (VR) experiences and the platforms used to deliver them. VR ranges from fully immersive setups—using head-mounted displays—to semi-immersive and non-immersive options such as desktop and smartphone-based experiences. Each platform can be tailored to specific therapeutic needs, making VR a versatile and accessible tool for interventions in neurodevelopmental disorders like ASD and ADHD.
 -->
 ---
+level: 2
 layout: image
 image: https://www.researchgate.net/profile/Joel-Lai-5/publication/358095244/figure/fig2/AS:11431281086843438@1664346031544/Types-of-augmented-reality-experiences-and-accompanying-platforms-See-section-on.png
 transition: slide-down
+title: Image
 ---
 
 ::content::
@@ -864,6 +910,7 @@ I am excited to share the news that I will be presenting this concept at the ann
 -->
 
 ---
+level: 2
 layout: default
 ---
 
@@ -885,6 +932,7 @@ In this concept, I address the significant challenges in understanding and suppo
 -->
 
 ---
+level: 2
 layout: full
 image: https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/nvidia-isaac-gr00t-n1-featured.gif
 contentClass: text-white
