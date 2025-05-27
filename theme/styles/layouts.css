@@ -471,11 +471,11 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout .mermaid {
-  @apply h-100px w-100px;
+  @apply flex justify-center  ;
 }
 
 .slidev-layout .mermaid svg {
-  @apply;
+  @apply ;
 }
 
 .slidev-layout.references .title {
