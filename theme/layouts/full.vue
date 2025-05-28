@@ -12,11 +12,8 @@ const hasContent = computed(() => !!slots.content)
 
 <template>
   <div class="slidev-layout full">
-    <div v-if="video" class="video">
-      <video :src="video" />
-    </div>
-    <div v-if="image" class="image">
-      <img :src="image" />
+    <div class="image">
+      <img v-if="image" :src="image" />
     </div>
     <div v-if="hasContent" v-click.hide class="content">
       <div class="container" :class="contentClass">
