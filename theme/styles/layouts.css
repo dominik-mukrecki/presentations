@@ -172,7 +172,7 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout.center .content {
-  @apply col-start-2 col-span-6 row-start-2 row-span-3 m-auto;
+  @apply col-start-3 col-span-4 row-start-2 row-span-3 m-auto;
 }
 
 .slidev-layout.section .title {
