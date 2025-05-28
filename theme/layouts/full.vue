@@ -13,7 +13,7 @@ const hasContent = computed(() => !!slots.content)
 <template>
   <div class="slidev-layout full">
     <div v-if="video" class="video">
-      <video />
+      <video :src="video" />
     </div>
     <div v-if="image" class="image">
       <img :src="image" />
