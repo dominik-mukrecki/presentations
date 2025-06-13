@@ -1,0 +1,7 @@
+{
+    "slidev.include": [
+        "**/slides.md",
+        "250613-cpsg.md",
+        "250613-cpsg.md"
+    ]
+}
