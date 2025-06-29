@@ -545,6 +545,6 @@ image: https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?q=80&w=3864&
 Special thanks to potential supervisors:  
 
 - **Małgorzata Kasprowicz, DSc, PhD, Eng**  
-- **Jolanta Rymaszewska, DSc, PhD, MD**  
+- **Joanna Rymaszewska, DSc, PhD, MD**  
 - **Przemysław Śliwiński, DSc, PhD, Eng**
 
