@@ -196,7 +196,7 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout.default .content {
-  @apply col-start-2 col-span-6 row-start-2 mb-auto;
+  @apply col-start-3 col-span-4 row-start-2 row-span-3 my-auto;
 }
 
 .slidev-layout.fact .title {
@@ -398,7 +398,11 @@ div.global-stripes > div:not(:last-child) {
 }
 
 .slidev-layout.end .content {
-  @apply col-start-3 col-span-4 row-span-2 mt-auto;
+  @apply col-start-3 col-span-4 row-span-3 mt-auto;
+}
+
+.slidev-layout.end .content p {
+  @apply text-xl;
 }
 
 .slidev-layout.end .author {

@@ -13,7 +13,7 @@ const image = $frontmatter.image || ''
     <div class="content">
       <slot name="content" />
     </div>
-    <div class="author">{{ $slidev.configs.author }}</div>
-    <div class="email">{{ $frontmatter.email }}</div>
+    <div class="author hidden">{{ $slidev.configs.author }}</div>
+    <div class="email hidden">{{ $frontmatter.email }}</div>
   </div>
 </template>
