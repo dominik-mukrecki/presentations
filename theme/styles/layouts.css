@@ -162,10 +162,6 @@ div.global-stripes > div:not(:last-child) {
   @apply text-xl my-4;
 }
 
-.slidev-layout li {
-  @apply leading-12
-}
-
 /* Centered & Block Layouts */
 .slidev-layout.quote > div {
   @apply col-start-2 col-span-6 row-start-2 row-span-3 flex flex-col justify-center;
@@ -197,6 +193,10 @@ div.global-stripes > div:not(:last-child) {
 
 .slidev-layout.default .content {
   @apply col-start-3 col-span-4 row-start-2 row-span-3 my-auto;
+}
+
+.slidev-layout.default .content :is(p, li) {
+  @apply leading-10;
 }
 
 .slidev-layout.fact .title {
@@ -401,8 +401,8 @@ div.global-stripes > div:not(:last-child) {
   @apply col-start-3 col-span-4 row-span-3 mt-auto;
 }
 
-.slidev-layout.end .content p {
-  @apply text-xl;
+.slidev-layout.end .content h1 {
+  @apply mb-8 text-right;
 }
 
 .slidev-layout.end .author {
