@@ -158,6 +158,14 @@ div.global-stripes > div:not(:last-child) {
   @apply mt-10;
 }
 
+.slidev-layout :is(p, ul, ol) {
+  @apply text-xl my-4;
+}
+
+.slidev-layout li {
+  @apply leading-12
+}
+
 /* Centered & Block Layouts */
 .slidev-layout.quote > div {
   @apply col-start-2 col-span-6 row-start-2 row-span-3 flex flex-col justify-center;
