@@ -8,8 +8,6 @@ download: false
 image: https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
-<!-- cover ≈0 :00–0 :30 -->
-
 ---
 layout: default
 ---
@@ -252,7 +250,7 @@ image: https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?q=80&w=3864&
 
 ::title::
 
-# Free‑energy principle in psychiatry
+# Free Energy Principle in psychiatry
 
 ---
 layout: default
@@ -425,6 +423,18 @@ image: https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?q=80&w=3864&
 ::title::
 
 # PhD working schedule
+
+---
+layout: default
+---
+
+::title::
+
+## Goal
+
+::content::
+
+To prove that Friston's Free Energy Principle can be successfully applied to simulate an autistic person in a virtual environment.
 
 ---
 layout: default
